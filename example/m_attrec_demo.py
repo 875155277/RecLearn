@@ -7,7 +7,8 @@ train AttRec demo
 import os
 from absl import flags, app
 from time import time
-from tensorflow.keras.optimizers import Adam
+#from tensorflow.keras.optimizers import Adam
+from keras.optimizers import Adam
 
 from reclearn.models.matching import AttRec
 from reclearn.data.datasets import movielens as ml
