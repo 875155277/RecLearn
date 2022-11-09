@@ -4,9 +4,9 @@ train WideDeep demo
 @author: Ziyao Geng(zggzy1996@163.com)
 """
 import tensorflow as tf
-from tensorflow.keras.losses import binary_crossentropy
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.metrics import AUC
+from keras.losses import binary_crossentropy
+from keras.optimizers import Adam
+from keras.metrics import AUC
 
 from reclearn.models.ranking import WideDeep
 from reclearn.data.datasets.criteo import get_split_file_path, get_fea_map, create_criteo_dataset
